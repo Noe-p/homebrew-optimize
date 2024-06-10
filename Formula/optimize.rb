@@ -1,7 +1,7 @@
 class Optimize < Formula
   desc "Optimizes and resizes images and videos"
   homepage "https://github.com/Noe-p/optimize-script"
-  url "https://github.com/Noe-p/optimize-script.git", :tag => "v1.0.3"
+  url "https://github.com/Noe-p/optimize-script.git", :tag => "v1.0.4"
   license "MIT"
 
   depends_on "imagemagick"
