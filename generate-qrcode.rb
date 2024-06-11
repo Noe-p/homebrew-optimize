@@ -1,7 +1,7 @@
 class Generate-qrcode < Formula
   desc "Permet de générer un QR code"
   homepage "https://github.com/Noe-p/homebrew-scripts"
-  url "https://github.com/Noe-p/homebrew-scripts.git", :tag => "v1.0.0"
+  url "https://github.com/Noe-p/homebrew-scripts.git", :tag => "v1.0.6"
   license "MIT"
 
   depends_on "imagemagick"
