@@ -7,7 +7,7 @@ class Optimize < Formula
   depends_on "imagemagick"
 
   def install
-    bin.install "optimize.sh" => "optimize"
+    bin.install "./scripts/optimize.sh" => "optimize"
   end
 
   test do
