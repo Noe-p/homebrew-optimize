@@ -7,7 +7,7 @@ class Generate < Formula
   depends_on "imagemagick"
 
   def install
-    bin.install "./scripts/generate.sh" => "generate"
+    bin.install "generate.sh" => "generate"
   end
 
   test do
