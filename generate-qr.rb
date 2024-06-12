@@ -1,10 +1,10 @@
-class Generate-qr < Formula
+class GenerateQr < Formula
   desc "Permet de générer un QR code"
   homepage "https://github.com/Noe-p/homebrew-scripts"
   url "https://github.com/Noe-p/homebrew-scripts.git", :tag => "v1.0.8"
   license "MIT"
 
-  depends_on "imagemagick"
+  depends_on "qrencode"
 
   def install
     bin.install "generate-qr.sh" => "generate-qr"
