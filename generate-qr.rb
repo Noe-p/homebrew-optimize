@@ -7,7 +7,7 @@ class GenerateQr < Formula
   depends_on "qrencode"
 
   def install
-    bin.install "generate-qr.sh" => "generate-qr"
+    bin.install "./scripts/generate-qr.sh" => "generate-qr"
   end
 
   test do
